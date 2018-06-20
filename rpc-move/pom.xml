@@ -7,14 +7,31 @@
     <description>支持流量控制，优雅关机，接口日志打印调用方和服务方编码</description>
     
     <properties>
+        <netty.all.version>4.0.23.Final</netty.all.version>
         <spring.context.version>5.0.7.RELEASE</spring.context.version>
+        <slf4j.version>1.7.21</slf4j.version>
     </properties>
     
     <dependencies>
         <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.all.version}</version>
+        </dependency>
+        <dependency>
           <groupId>org.springframework</groupId>
           <artifactId>spring-context</artifactId>
           <version>${spring.context.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+          <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 </project>
