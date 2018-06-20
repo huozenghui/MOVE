@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.com.huo.zenghui</groupId>
+    <artifactId>rpc-move</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>支持流量控制，优雅关机，接口日志打印调用方和服务方编码</description>
+    
+    <properties>
+        <spring.context.version>5.0.7.RELEASE</spring.context.version>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>${spring.context.version}</version>
+        </dependency>
+    </dependencies>
+</project>
